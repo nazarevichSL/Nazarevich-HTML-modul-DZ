@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+body {
+    background: lavender;
+}
+p.dates {
+    background: darksalmon;
+    color: #022198;
+}
+.point {
+    font-size: 30px;
+}

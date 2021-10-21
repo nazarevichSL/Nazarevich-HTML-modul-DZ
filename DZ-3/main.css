@@ -1,0 +1,74 @@
+.heading{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.target{
+    background: honeydew;
+    width: 270px;
+    height: 30px;
+    padding: 2px;
+    border: 20px red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 350px;
+}
+.target2{
+    text-align: center;
+    background: honeydew;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-top: 5px;
+    margin: 2px 20px 2px 10px;
+}
+.par1{
+    background: ghostwhite;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.par2{
+    background: darksalmon;
+    border: 2px solid darkred;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.par3{
+    background: ghostwhite;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.hb{
+    background: #ffffff;
+    padding: 1px;
+    margin: 2px 20px 2px 20px;
+}
+.books{
+    background: #ffffff;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+h2{
+    color: darkred;
+    width: 235px;
+    height: auto;
+    background: #ffffff;
+    border: 2px solid darkred;
+    padding: 1px 1px;
+    margin: 2px 10px 2px 10px;
+    border-radius: 10px;
+}
+.quotes2{
+    color: darkred;
+    font-weight: bold;
+}

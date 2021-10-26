@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+
+
+}
+
+.widgets {
+    display: flex;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+}
+
+.bbh_container {
+    display: flex;
+    height: 200px;
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+    column-gap: 10px;
+}
+
+.bbh {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: #110249;
+    flex-grow: 1;
+}
+
+.contact {
+    display: flex;
+    height: 400px;
+    background-color: blue;
+    margin-top: 10px;
+    color: white;
+    font-size: x-large;
+
+}

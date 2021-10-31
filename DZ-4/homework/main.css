@@ -1,0 +1,61 @@
+* {
+    width: auto;
+    height: auto;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.target {
+    background: honeydew;
+    padding: 5px;
+    text-align: center;
+}
+
+.target:nth-child(2n) {
+    margin: 5px 700px;
+}
+
+.target:nth-child(2n+1) {
+    margin: 2px 160px
+}
+
+.par {
+    background: ghostwhite;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.par:nth-child(2n) {
+    background: darksalmon;
+    border: 2px solid darkred;
+}
+
+.hb {
+    background: #ffffff;
+    padding: 1px;
+    margin: 2px 20px 2px 20px;
+}
+.books {
+    background: #ffffff;
+    margin: 10px;
+}
+h2 {
+    width: 235px;
+    background: #ffffff;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    color: darkred;
+
+}
+.quotes2,.quotes {
+    color: darkred;
+    font-weight: bold;
+    padding: 1px 1px;
+    margin: 2px 5px;
+
+
+}

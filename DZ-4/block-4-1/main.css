@@ -75,7 +75,7 @@
     align-items: center;
     justify-content: center;
     row-gap: 15px;
-    color: var(--lait);
+    color: var(--la);
     transition: all 1s;
     cursor: pointer;
 }

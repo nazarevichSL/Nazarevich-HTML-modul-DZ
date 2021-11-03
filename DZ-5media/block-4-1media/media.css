@@ -1,0 +1,16 @@
+@media screen and (max-width: 620px) {
+    :root {
+        --blu: #052aba;
+        --aqu: #07fff7;
+        --lai: #b6e5db;
+    }
+
+    .prod__list,
+    .wrapper_about__grit {
+        flex-direction: column;
+    }
+
+    .about__cart {
+        width: 100%;
+    }
+}

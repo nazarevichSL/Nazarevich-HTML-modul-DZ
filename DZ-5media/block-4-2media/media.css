@@ -1,0 +1,81 @@
+@media screen and (max-width: 660px) {
+    :root {
+        --blue: #415d66;
+        --aqua: #07fff7;
+        --lait: #a0cee7;
+    }
+
+    .header__top {
+        justify-content: center;
+
+    }
+
+    .header__top_log {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .nav {
+        text-align: center;
+    }
+
+    .header__menu {
+        padding: 10px;
+        row-gap: 5px;
+    }
+
+    .products {
+        padding: 5px;
+    }
+
+    .products__list {
+        flex-direction: column;
+    }
+
+
+
+    .wrapper_about__grit {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about__cart {
+        width: 95%;
+        margin: 5px;
+    }
+
+
+    .big__title, .big__menu {
+        padding: 5px;
+    }
+
+    .reviews__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+        width: 96%;
+    }
+
+    .menu__black_left,
+    .menu__black_right {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+
+    .cont_tek {
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+
+
+
+
+}

@@ -311,8 +311,9 @@
     display: flex;
     justify-content: center;
     background-color: var(--lait);
-    padding: 60px;
-}
+    padding: 15px 20px;
+    flex-direction: row;
+    }
 
 .menu__black_left {
     display: flex;
@@ -320,7 +321,7 @@
     justify-content: center;
     background-color: var(--blue);
     height: 250px;
-    width: 450px;
+    width: 420px;
     border: 30px;
     padding: 30px 70px;
 }
@@ -360,9 +361,10 @@
     justify-content: center;
     background-color: var(--aqua);
     height: 250px;
-    width: 450px;
+    width: 420px;
     border: 30px;
     padding: 30px 70px;
+
 }
 
 .rev__logo_right {

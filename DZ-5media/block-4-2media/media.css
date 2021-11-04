@@ -54,20 +54,22 @@
     }
 
     .reviews__menu {
-        display: flex;
+        /*display: flex;*/
         flex-direction: column;
         justify-content: center;
         padding: 5px;
-        width: 96%;
+
+
     }
 
     .menu__black_left,
     .menu__black_right {
         width: 100%;
-        padding: 10px;
+        padding: 15px;
+        box-sizing: border-box;
         text-align: center;
-    }
 
+    }
 
     .cont_tek {
         width: 100%;

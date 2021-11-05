@@ -6,7 +6,9 @@
 
 .header {
     height: 100vh;
-    background: url(image/bg.png) no-repeat center/cover;
+    background: url("image/") no-repeat center/cover;
+
+    /*background: url(image/) no-repeat center/cover;*/
     }
 
 .header__top {

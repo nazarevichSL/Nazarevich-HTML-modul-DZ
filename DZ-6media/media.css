@@ -39,4 +39,24 @@
         display: none;
     }
 
+    .menu__slogan {
+        flex-direction: column;
+        row-gap: 20px;
+
+    }
+    .magic,
+    .quality,
+    .price {
+        display: flex;
+        width: 290px;
+        height: 276px;
+        box-shadow: 0 0 20px;
+    }
+
+    .magic__item a,
+    .magic__bolt a {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
 }

@@ -1,0 +1,351 @@
+.header {
+    border-bottom: 3px solid silver;
+}
+
+.navbar-expand-xl,
+.navbar-collapse  {
+    justify-content: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+.navbar-expand-xl .navbar-nav {
+    column-gap: 19px;}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    mix-blend-mode: multiply;
+    border: 2px solid #b6b8bf;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.navbar>.container, .navbar>.container-fluid,
+.navbar>.container-lg, .navbar>.container-md,
+.navbar>.container-sm, .navbar>.container-xl,
+.navbar>.container-xxl {
+    column-gap: 80px;
+}
+
+.first__sk {
+    margin-top: 60px;
+}
+
+.first__sk-left h1,
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: -0.4px;
+    line-height: 70px;
+    color: #1652AC;
+    margin-top: 25px;
+}
+
+.first__sk-text {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    width: 100%;
+    margin-top: 200px;
+    position: relative;
+}
+
+.first__sk-left p::before,
+.first__sk-left p::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 5px;
+    background-color: #b6acac;
+
+}
+
+.first__sk-left p::before {
+    top: -50px;
+}
+
+.first__sk-left p::after {
+    bottom: -50px;
+}
+
+.first__sk-right img {
+    width: 100%;
+}
+.h2, h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #1652AC;
+    margin-bottom: 20px;
+}
+
+.first__skn-text,
+p {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.first__sk-right {
+    padding: 0;
+}
+
+.first__sk-bl {
+    padding: 150px 180px;
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+    vertical-align: middle;
+}
+
+.first__sk-bl h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: 3px;
+    color: #FBFDFF;
+}
+
+.first__skn-tex,
+.first__skn-texts {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
+
+.text-uppercase {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #1652AC;
+}
+
+.first__sk-lel {
+    padding: 150px;
+}
+
+.first__sk-riger {
+    display: none;
+}
+.menu__silver {
+    background: #FBFBFC;
+    border-bottom: 3px solid silver;
+}
+
+.rectangle__tex {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    color: #020303;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.menu__rectangle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 630px;
+    max-width: 1215px;
+    margin: auto;
+    column-gap: 7px;
+    row-gap: 7px;
+}
+
+.rectangle {
+    display: flex;
+    height: 150px;
+    width: 400px;
+    border: 2px solid silver;
+    border-radius: 20px;
+    background: white;
+    align-items: center;
+
+}
+.rectangle img {
+    margin-left: 20px;
+}
+
+.rectangle__text {
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #45494F;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.rectangle__texts {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    color: #020303;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+.menu__rectangles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: 800px;
+    max-width: 1215px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid silver;
+    border-radius: 20px;
+    background: white;
+}
+
+.rectangles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 680px;
+    width: 1200px;
+    background: white;
+    align-items: flex-start;
+    column-gap: 15px;
+}
+
+.conteiner {
+    background: #FBFBFC;
+}
+
+.first__bil {
+    display: flex;
+    margin: auto;
+    width: 610px;
+    height: 813px;
+    background: url(../image/bilder.png);
+    align-items: center;
+}
+
+.menu__rectanglel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 120px;
+    max-width: 1220px;
+    margin: auto;
+    column-gap: 7px;
+    row-gap: 7px;
+    margin-bottom: 15px;
+}
+
+.button,
+.btn,
+btn-primary {
+    width: 400px;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: 1.42px;
+    color: #FAFBFE;
+}
+
+.first__skh h2 {
+    align-items: center;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+    padding-top: 100px;
+    margin-top: 20px;
+}
+
+.first__sk span {
+    color: #1652AC;
+}
+
+.first__sk p {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #464C53;
+
+}
+
+.button,
+.btn,
+.btn-primary,
+.btn-lg {
+    width: 400px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.first__sk-logo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.menu__cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    max-width: 100%;
+    margin: auto;
+    border-top: 2px solid silver;
+
+}
+
+.rectangle__cont {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 25%;
+    background: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.rectangle__tex_cont {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #A3ADBA;
+}
+
+
+.rectangle__text_cont {
+    font-size: 17px;
+    line-height: 32px;
+    color: #9EABBB;
+    margin-left: 15px;
+}
+
+.rectangle__tex_con {
+    margin-top: 15px;
+}
+
+
+
+

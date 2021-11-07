@@ -1,0 +1,78 @@
+@media screen and (max-width: 1200px) {
+    .first__sk-left h1,
+    h1 {
+        font-size: 30px;
+        letter-spacing: -0.4px;
+        line-height: 50px;
+        color: #1652AC;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .first__sk {
+        margin-top: 20px;
+
+    }
+
+    .first__sk-text {
+        margin-top: 50px;
+    }
+
+    .first__sk-left p::after {
+        display: none;
+    }
+
+    .first__sk-bl {
+        padding: 20px 20px;}
+
+
+    .first__sk-lel {
+        padding: 30px;
+    }
+
+    .first__sk-riger {
+        display: block;
+    }
+
+    .first__sk-rig {
+        display: none;
+    }
+
+    .menu__rectangle {
+        justify-content: center;
+    }
+
+    .menu__rectangles {
+        margin-top: 20px;
+        padding: 5px;
+    }
+
+    .rectangles {
+        padding-top: 15px;
+        flex-direction: column;
+    }
+
+
+    .first__bil {
+        width: 360px;
+        height: 479px;
+        background: url(../image/bulder2.png);
+    }
+
+    .button,
+    .btn,
+    .btn-primary {
+        width: 360px;
+        margin: auto;
+    }
+    .menu__cont {
+        display: block;
+        align-items: center;
+    }
+    .rectangle__cont {
+        margin: 10px;
+    }
+
+
+}
+

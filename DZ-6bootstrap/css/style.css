@@ -131,7 +131,12 @@ p {
 }
 
 .first__sk-lel {
-    padding: 15px;
+    padding: 170px;
+    background: #FFFFFF;
+}
+
+.first__sk-rig {
+    background: #FFFFFF;
 }
 
 .first__sk-riger {
@@ -217,7 +222,14 @@ p {
     width: 1200px;
     background: white;
     align-items: flex-start;
-    column-gap: 15px;
+}
+
+.rectangles ul {
+    list-style-type: none;
+    font-size: 17px;
+    line-height: 35px;
+    letter-spacing: -0.4px;
+    color: #45494F;
 }
 
 .rectangles img {

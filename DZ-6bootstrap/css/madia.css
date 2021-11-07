@@ -27,7 +27,7 @@
 
 
     .first__sk-lel {
-        padding: 30px;
+        padding: 22px;
     }
 
     .first__sk-riger {
@@ -42,13 +42,22 @@
         justify-content: center;
     }
 
+    .rectangle {
+        height: 120px;
+        width: 280px;
+        border: 2px solid silver;
+        border-radius: 20px;
+        background: white;
+        align-items: center;
+    }
+
     .menu__rectangles {
         margin-top: 20px;
         padding: 5px;
     }
 
     .rectangles {
-        padding-top: 15px;
+        display: flex;
         flex-direction: column;
     }
 
@@ -65,12 +74,33 @@
         width: 360px;
         margin: auto;
     }
+
+    .first__skh h2 {
+      padding-top: 20px;}
+
+    .first__sk-logo {
+        padding-top: 20px;
+    }
+
+
     .menu__cont {
-        display: block;
-        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
     .rectangle__cont {
         margin: 10px;
+    }
+    .rectangle__cont {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .text-uppercase {
+        padding: 10px;
     }
 
 

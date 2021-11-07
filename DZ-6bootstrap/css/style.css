@@ -82,6 +82,7 @@ h1 {
     letter-spacing: 3px;
     color: #1652AC;
     margin-bottom: 20px;
+    padding: 5px;
 }
 
 .first__skn-text,
@@ -90,6 +91,7 @@ p {
     font-size: 17px;
     line-height: 32px;
     color: #45494F;
+    padding: 10px;
 }
 
 .first__sk-right {
@@ -129,7 +131,7 @@ p {
 }
 
 .first__sk-lel {
-    padding: 150px;
+    padding: 15px;
 }
 
 .first__sk-riger {
@@ -146,8 +148,8 @@ p {
     letter-spacing: 5px;
     color: #020303;
     text-align: center;
-    padding-top: 40px;
-    margin-bottom: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 .menu__rectangle {
@@ -156,7 +158,6 @@ p {
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    height: 630px;
     max-width: 1215px;
     margin: auto;
     column-gap: 7px;
@@ -201,7 +202,6 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-height: 800px;
     max-width: 1215px;
     margin: auto;
     margin-top: 20px;
@@ -214,11 +214,14 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 680px;
     width: 1200px;
     background: white;
     align-items: flex-start;
     column-gap: 15px;
+}
+
+.rectangles img {
+    padding: 15px;
 }
 
 .conteiner {
@@ -240,7 +243,6 @@ p {
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    height: 120px;
     max-width: 1220px;
     margin: auto;
     column-gap: 7px;
@@ -278,7 +280,6 @@ btn-primary {
     line-height: 32px;
     letter-spacing: -0.4px;
     color: #464C53;
-
 }
 
 .button,
@@ -292,7 +293,6 @@ btn-primary {
     color: #FFFFFF;
     padding-top: 10px;
     margin-bottom: 30px;
-
 }
 
 .first__sk-logo {
@@ -306,10 +306,9 @@ btn-primary {
 .menu__cont {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 150px;
     max-width: 100%;
     margin: auto;
     border-top: 2px solid silver;
@@ -319,7 +318,6 @@ btn-primary {
 .rectangle__cont {
     display: flex;
     flex-direction: column;
-    height: 150px;
     width: 25%;
     background: white;
     align-items: center;
@@ -339,7 +337,6 @@ btn-primary {
     font-size: 17px;
     line-height: 32px;
     color: #9EABBB;
-    margin-left: 15px;
 }
 
 .rectangle__tex_con {

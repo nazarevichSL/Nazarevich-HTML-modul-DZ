@@ -1,0 +1,146 @@
+@media screen and (max-width: 1200px) {
+    .container-fluid {
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+
+    }
+.navbar-light, .navbar-toggler {
+     color: white;
+    border-color: white;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: 1px solid white;}
+
+.navbar-toggler, button {
+    margin: 5px;
+}
+
+.collapse,
+navbar-collapse,
+show {
+    display: block;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.cont__logo {
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.menu__logo {
+    display: flex;
+}
+.logo {
+    display: flex;
+    width: 100%;
+}
+
+
+    .text__logo h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .logo img {
+        height: 43px;
+        width: 33px;
+    }
+
+.time,
+.address,
+.whatsapp {
+    display: none;
+}
+
+
+    .tel {
+        display: block;
+        width: 170px;
+        flex-direction: row;
+        justify-content: flex-end;
+        text-align: right;
+    }
+
+    .text__tel h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .menu__text_what {
+        display: flex;
+        text-align: right;;
+        align-items: center;
+        width: 160px;
+        height: 26px;
+        border: 2px solid slategrey;
+        border-radius: 3px;
+        background: #c8e2a2;
+        margin: 0;
+
+    }
+
+    .text__time_right {
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .text__logo_botton {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .menu__dropdowns {
+        display: none;
+    }
+
+    .menu__dropdowns_media {
+        display: flex;
+    }
+
+    .basket__product {
+        display: none;
+    }
+
+    .cont__product,
+    .cont__carousel {
+        padding: 10px;
+    }
+
+ .form-control {
+     width: 120px;
+     height: 33px;
+ }
+
+.btn, btn-outline-secondary {
+    margin: 0;
+    width: 80px;
+    height: 33px;
+}
+
+.menu__product{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.form-control {
+    width: 30%;}
+
+    .menu__carousel {
+        display: block;
+        justify-content: right;
+    }
+
+.stock {
+    display: flex;
+    flex-direction: row;
+}
+
+
+}

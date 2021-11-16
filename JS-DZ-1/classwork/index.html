@@ -12,28 +12,32 @@
 <script>
 
     // Створити масив з 10 чисел (можна використовувати Math.random Та Math.floor). Скласти результат цих чисел в змінній result.
-    let massiv = [];
+    let massiv = [0,2,4,3,5,1,6,9,7,8]
+    let result = (massiv[0]+massiv[1]+massiv[2]+massiv[3]+massiv[4]+massiv[5]+massiv[6]+massiv[7]+massiv[8]+massiv[9])
+    console.log(result)
+// или из интернета
+    let mas = [];
     for (let i=0, t=10; i<t; i++) {
-        massiv.push(Math.round(Math.random() * t))
+        mas.push(Math.round(Math.random() * t))
     }
-    console.log(massiv)
-    document.write(massiv);
-    let result = massiv.reduce((total,amount)=>total+amount);
-    console.log(result);
-    document.write(result)
+    console.log(mas)
+    document.write(mas);
+    let results = mas.reduce((total,amount)=>total+amount);
+    console.log(results);
+    document.write(results)
 
     // Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр
     let book1 = {
-        titles: 'Think and grow rich',
-        pages: 384,
+        name: 'Think and grow rich',
+        countPages: 384,
         genre: "psychology"
     }
     console.log(book1);
 
     // Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр, автори
     let book2 = {
-        titles: 'How to Stop Worrying and Start Living',
-        pages: 416,
+        name: 'How to Stop Worrying and Start Living',
+        countPages: 416,
         genre: "scientific literature",
         author: 'Dale Carnegie'
     }
@@ -41,11 +45,11 @@
 
     // Створити маис об'єктів book з наступними полями  - назва, кількість сторінок, жанр, автори. Вивести кожну книгу як окремий об'єкт
     let books = [
-        {titles: 'Think and grow rich', pages: 384, genre: "psychology", author: 'Napoleon Hill'},
-        {titles: 'How to Stop Worrying and Start Living', pages: 416, genre: "scientific literature", author: 'Dale Carnegie'}
+        {name: 'Think and grow rich', countPages: 384, genre: "psychology", author: 'Napoleon Hill'},
+        {name: 'How to Stop Worrying and Start Living', countPages: 416, genre: "scientific literature", author: 'Dale Carnegie'}
     ]
-
-    console.log(books[0],[1],[2])
+    console.log(books[0])
+    console.log(books[1])
 
     // Напишіть код, який вираховує площу прямокутника висотою 23см. (змінна height) та шириною 10см (змінна width).
     // Значення площі зберігати в змінній s.

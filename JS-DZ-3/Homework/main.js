@@ -4,17 +4,36 @@
 // - з 5 значень стрічкового, числового та булевого типу
 // - та вивести його в консоль
 let a = [5, 6, 8, 1, 3];
-for (let n = 0; n < 5; n++) {
-    console.log(a[n]);
-}
+    console.log(a[0]);
+    console.log(a[1]);
+    console.log(a[2]);
+    console.log(a[3]);
+    console.log(a[4]);
+
 let b = ['aa', 'vv', 'dd', 'cc', 'mm'];
-for (let n = 0; n < 5; n++) {
-    console.log(b[n]);
-}
+    console.log(b[0]);
+    console.log(b[1]);
+    console.log(b[2]);
+    console.log(b[3]);
+    console.log(b[4]);
+
 let c = ['q', 'w', 'e', 'r', 't', 0, -2, 7, 3, 1, 5>6, 4===4, 7<9, 8===8, 4>5];
-for (let n = 0; n < c.length; n++) {
-    console.log(c[n]);
-}
+    console.log(c[0]);
+    console.log(c[1]);
+    console.log(c[2]);
+    console.log(c[3]);
+    console.log(c[4]);
+    console.log(c[5]);
+    console.log(c[6]);
+    console.log(c[7]);
+    console.log(c[8]);
+    console.log(c[9]);
+    console.log(c[10]);
+    console.log(c[11]);
+    console.log(c[12]);
+    console.log(c[13]);
+    console.log(c[14]);
+
 
 // Створити пустий масив. Наповнити його будь-якими значеннями
 // звертаючись до конкретного індексу. Вивести в консоль

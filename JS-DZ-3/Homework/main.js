@@ -4,36 +4,19 @@
 // - з 5 значень стрічкового, числового та булевого типу
 // - та вивести його в консоль
 let a = [5, 6, 8, 1, 3];
-    console.log(a[0]);
-    console.log(a[1]);
-    console.log(a[2]);
-    console.log(a[3]);
-    console.log(a[4]);
+    for (let i = 0; i < a.length; i++){
+        console.log(a[i])
+    }
 
 let b = ['aa', 'vv', 'dd', 'cc', 'mm'];
-    console.log(b[0]);
-    console.log(b[1]);
-    console.log(b[2]);
-    console.log(b[3]);
-    console.log(b[4]);
+for (let i = 0; i < b.length; i++){
+    console.log(b[i])
+}
 
 let c = ['q', 'w', 'e', 'r', 't', 0, -2, 7, 3, 1, 5>6, 4===4, 7<9, 8===8, 4>5];
-    console.log(c[0]);
-    console.log(c[1]);
-    console.log(c[2]);
-    console.log(c[3]);
-    console.log(c[4]);
-    console.log(c[5]);
-    console.log(c[6]);
-    console.log(c[7]);
-    console.log(c[8]);
-    console.log(c[9]);
-    console.log(c[10]);
-    console.log(c[11]);
-    console.log(c[12]);
-    console.log(c[13]);
-    console.log(c[14]);
-
+for (let i = 0; i < c.length; i++){
+    console.log(c[i])
+}
 
 // Створити пустий масив. Наповнити його будь-якими значеннями
 // звертаючись до конкретного індексу. Вивести в консоль
@@ -46,32 +29,33 @@ week [4] = 5<6;
 console.log(week)
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
-for (let i = 0; i < 10; i++) {
-    document.write(`<div>${'негретенок'}</div>`);
+let i = 0;
+while (i < 20) {
+    document.write(`<div>'негретенок'</div>`);
+    i++;
 }
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
-for (let i = 1; i <= 10; i++) {
+for (let i = 0; i < 10; i++) {
     document.write(`<div>негретенок ${i}</div>`);
 }
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
-let i = 0;
-while (i < 20) {
+let s = 0;
+while (s < 20) {
     document.write(`<h1>событие</h1>`);
-    i++
+    s++
 }
 // За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
-let n= 0;
-while (n <= 20) {
-    document.write(`<h1>событие ${n+1}-го дня </h1>`);
-    n++
+let m= 0;
+while (m <= 20) {
+    document.write(`<h1>событие ${m+1}-го дня </h1>`);
+    m++
 }
 
-
 // Cтворити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
-let m = [11, 22, 33, 44, 55, 66, 77, 88, 99, 19];
+let mm = [11, 22, 33, 44, 55, 66, 77, 88, 99, 19];
 n = 0;
-while (n < m.length) {
-    console.log(m[n]);
+while (n < mm.length) {
+    console.log(mm[n]);
     n++;
 }
 // - Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.

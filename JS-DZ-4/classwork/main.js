@@ -22,7 +22,7 @@
 //          }
 //     }
 // }
-// minNumber(1,3,2)
+// minNumber(1,3,2);
 
 // я понял это задание так!!!
 // function minNan (a,b,c) {
@@ -35,7 +35,7 @@
 //         console.log(c);
 //     }
 // }
-// minNan(5,6,4)
+// minNan(5,6,4);
 // - створити функцію яка приймає три числа та виводить найбільше. (Без Math.max!)
 // function maxNumber (a,b,c) {
 //     if (a > b && a > c) {
@@ -74,7 +74,7 @@
 //         console.log(c);
 //     }
 // }
-// maxNan(5,3,8)
+// maxNan(5,3,8);
 // - створити функцію яка повертає найбільше число з масиву
 // let numbers = [1,5,0,12,-2];
 // function maxNan (arr) {
@@ -87,7 +87,7 @@
 //     console.log(max);
 //     return max;
 // }
-// maxNan (numbers)
+// maxNan (numbers);
 
 // - створити функцію яка повертає найменьше число з масиву
 // numbers = [1,5,0,12,-2];
@@ -99,9 +99,9 @@
 //         }
 //     }
 //     console.log(min);
-//     return min
+//     return min;
 // }
-// minNan (numbers)
+// minNan (numbers);
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 // numbers = [1,2,13];
@@ -110,10 +110,10 @@
 //     for (const numS of arr) {
 //         summa = summa + numS;
 //     }
-//     console.log(summa)
+//     console.log(summa);
 //     return summa;
 // }
-// sum (numbers)
+// sum (numbers);
 
 // - створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
 // numbers = [1,4,7]; //12/3=4
@@ -125,8 +125,8 @@
 //     return summa / numbers.length;
 // }
 // console.log(average (numbers));
-// document.write(average (numbers))
-// average (numbers)
+// document.write(average (numbers));
+// average (numbers);
 
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
 // function maxminArr (arg) {
@@ -140,10 +140,10 @@
 //             min = num;
 //         }
 //     }
-//     console.log("max", max)
+//     console.log("max", max);
 //     return min;
 // }
-// document.write('Мінімальне число з введених: ' + maxminArr (1,2,6,9,4))
+// document.write('Мінімальне число з введених: ' + maxminArr (1,2,6,9,4));
 
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100))
@@ -153,9 +153,9 @@
 //     for (i = 0; i < arr; i++) {
 //     arrMas[i] = Math.round(Math.random()*100);
 //     }
-//     return arrMas
+//     return arrMas;
 // }
-// document.write(roundMass(10))
+// document.write(roundMass(10));
 
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit -
 // аргумент, який характеризує кінцеве значення діапазону.
@@ -164,9 +164,9 @@
 //     for (i = 0; i < arr; i++) {
 //         arrMaslimit[i]= Math.round(Math.random()*limit);
 //     }
-//     return arrMaslimit;
+//     return arrMaslimit;;
 // }
-// document.write(roundMasslimit(10,1000))
+// document.write(roundMasslimit(10,1000));
 
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
 // let array = [1,2,3];
@@ -175,6 +175,6 @@
 //     for (let i = arr.length - 1, n = 0; i >= 0; i--, n++) {
 //         revArr[n] = arr[i];
 //     }
-//     return revArr
+//     return revArr;
 // }
 // document.write( revers(array));

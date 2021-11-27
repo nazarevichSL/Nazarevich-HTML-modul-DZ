@@ -48,10 +48,10 @@
 //     console.log(min);
 //     return min;
 // }
-// minNum([5,2,3,8,7,4])
-//
+// minNum([5,2,3,8,7,4]);
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+// let numbers = [2,8,5]
 // let sum = (arr) => {
 //     let summa = 0;
 //     for (const arrSumma of arr) {
@@ -60,9 +60,10 @@
 //     console.log(summa);
 //     return summa;
 // }
-// sum ([5,9,7])
+// sum (numbers)
 
 // - створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
+// let numbers = [4,6,2]
 // let sum = (ar) => {
 //     let summa = 0;
 //     for (const arElement of ar) {
@@ -72,17 +73,13 @@
 //     console.log(summaS);
 //     return summaS;
 // }
-// sum ([2,5,8]);
+// sum (numbers);
 //
-//
-
-
-
 // створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
-// let maxminArr = (arg) => {
-//     let min = arguments[0];
-//     let max = arguments[0];
-//     for (const num of arguments) {
+// let maxminArr = (...arr) => {
+//     let min = arr[0];
+//     let max = arr[0];
+//     for (const num of arr) {
 //         if (num > max) {
 //             max = num;
 //         }
@@ -93,11 +90,8 @@
 //     console.log("max", max);
 //     return min;
 // }
-// document.write('Минимальне число з введених: ' + maxminArr (1,2,6,9,4));
+// document.write('Минимальне число з введених: ' + maxminArr (3,2,1,9,4,10));
 //
-
-
-
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100))
 // та виводить його.
@@ -106,9 +100,9 @@
 //     for (n=0; n<arr; n++) {
 //         arrMass[n] = Math.round(Math.random()*100);
 //     }
-//     return arrMass
+//     return arrMass;
 // }
-// document.write(roundMass(15))
+// document.write(roundMass(15));
 
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit -
 // аргумент, який характеризує кінцеве значення діапазону.
@@ -117,11 +111,12 @@
 //     for (i = 0; i < arr; i++) {
 //         arrMaslimit[i]= Math.round(Math.random()*limit);
 //     }
-//     return arrMaslimit;;
+//     return arrMaslimit;
 // }
 // document.write(roundMasslimit(10,1000));
 
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
+// let number = [1,2,3]
 // let revers = (arr) => {
 //     let revArr = [];
 //     for (let i = arr.length - 1, n = 0; i >= 0; i--, n++) {
@@ -131,4 +126,4 @@
 //     document.write(revArr);
 //     return revArr;
 // }
-// revers([1,2,3]);
+// revers(number);

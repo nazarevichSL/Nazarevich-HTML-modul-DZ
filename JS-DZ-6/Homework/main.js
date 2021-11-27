@@ -76,5 +76,5 @@ function capitalize(str) {
         return strElement
     }
 }
-capitalize(str)
-console.log(capitalize(str))
+capitalize(str);
+console.log(capitalize(str));

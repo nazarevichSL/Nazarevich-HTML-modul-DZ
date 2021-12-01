@@ -1,22 +1,21 @@
 // - Дано список імен.
 // Написати функцію, яка приймає будь яке не валідне імя, та нормалізує його в наступнйи вигляд
-// let n1 = 'Harry Potter'
-// let n2 = 'Ron Whisley'
-// let n3 = 'Hermione Granger'
-let n1 = 'Harry..Potter';
+// let n1 = 'Harry Potter';
+// let n2 = 'Ron Whisley';
+// let n3 = 'Hermione Granger';
+
+// let n1 = 'Harry..Potter';
 // let n2 = 'Ron---Whisley';
 // let n3 = 'Hermione__Granger';
 // let n4 = 'Albus..---__Dambuldor';
-//
-function normalname (name) {
-    name.replaceAll('..', ' ')
-        .replaceAll('---', ' ')
-        .replaceAll('__', ' ')
-console.log(normalname(n1));
-    return;
-}
-
-console.log(normalname(n1));
+// //
+// function normalname (name) {
+//     let res = name.replaceAll('..', ' ')
+//         .replaceAll('---', ' ')
+//         .replaceAll('__', ' ');
+//     return res;
+// }
+// console.log(normalname(n4));
 //
 //  let name = (string, arr) => {
 //     let newArr = [];
@@ -72,9 +71,9 @@ console.log(normalname(n1));
 // let massRandon = (length, num) => {
 //     let arrayR = [];
 //     for (let i = 0; i < length; i++) {
-//         arrayR.push(Math.floor(Math.random()*num))
+//         arrayR.push(Math.floor(Math.random()*num));
 //     }
-//     return arrayR.filter(x => x % 2 === 0)
+//     return arrayR.filter(x => x % 2 === 0);
 // }
 // console.log(massRandon(10, 100));
 
@@ -83,7 +82,7 @@ console.log(normalname(n1));
 // let massC = (size, ar) => {
 //     let arrC = [];
 //     for (let i = 0; i < size; i++) {
-//         arrC.push(Math.floor(Math.random()*ar))
+//         arrC.push(Math.floor(Math.random()*ar));
 //
 //     }
 //     return arrC.map(value => value.toString());
@@ -116,5 +115,5 @@ console.log(normalname(n1));
 // -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
 // let coursesFilter = coursesAndDurationArray.filter((value) => {
 //     return value.monthDuration > 5;
-// })
+// });
 // console.log(coursesFilter);

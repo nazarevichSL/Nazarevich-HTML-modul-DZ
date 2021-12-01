@@ -57,7 +57,6 @@
 // console.log(delete_characters(str, 7));
 // document.write(delete_characters(str, 7));
 
-
 // - Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-) між словами.
 // При цьому всі символи рядка необхідно перевести у верхній регістр.
 //     let str = "HTML JavaScript PHP";
@@ -87,13 +86,24 @@
 // document.write(capitalize(str));
 
 // второй вариант
-let str = 'лондон москва киев минск';
-const capitalize = (str) => {
-    let split = str.split(" ");
-    let result = [];
-    for (const splitElement of str) {
-        result.push(splitElement)
-    }
-    return result.join(' ');
-}
-console.log(capitalize(str));
+// let str = 'лондон москва киев минск';
+// const capitalize = (str) => {
+//     let split = str.split(" ");
+//     let result = [];
+//     for (const splitElement of split) {
+//         result.push(splitElement[0].toUpperCase()+splitElement.slice(1));
+//     }
+//     return result.join(' ');
+// }
+// console.log(capitalize(str));
+
+// const capitalize = str => {
+//     let arr = str.split(' ');
+//     let result = [];
+//     for (const resultElement of str) {
+//         result.push(resultElement);
+//     }
+//
+//     return result.join(' ');
+// }
+// console.log(capitalize('Каждый охотник желает знать'));

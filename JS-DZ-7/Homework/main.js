@@ -18,7 +18,7 @@ let users = [
     new User(3,'vadim', 'sivov', 'sivov@gmail.com', "+380506532259"),
     new User(8,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355"),
     new User(1,'anna', 'sidorova', 'sidorova@gmail.com', "+380508972233"),
-    new User(10,'oleg', 'aynykovich', 'aynykovich@gmail.com', "+380508563236"),
+    new User(10,'oleg', 'aynykovich', 'aynykovich@gmail.com', "+380508563236")
     ]
 console.log(users);
 
@@ -46,30 +46,30 @@ let client = new Client (1, 'maks', 'ibragimov', 'ibragimov@gmail.com', "+380506
 console.log(client);
 
 // створити пустий масив, наповнити його 10 об'єктами Client
-// class client {
-//     constructor(id, name, surname, email, phone, order) {
-//         this.id = id;
-//         this.name = name;
-//         this.surname = surname;
-//         this.email = email;
-//         this.phone = phone;
-//         this.order = order;
-//     }
-// }
-//
-// let Client = [
-//     new client(2,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'cupboard', 'table']),
-//     new client(1,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'table']),
-//     new client(3,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['cupboard']),
-//     new client(5,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'bed', 'table']),
-//     new client(4,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'table']),
-//     new client(6,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'cupboard', 'table', 'bed']),
-//     new client(9,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'bed', 'table', 'curbstone']),
-//     new client(7,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair']),
-//     new client(8,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'cupboard', 'table', 'bed', 'curbstone']),
-//     new client(10,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['bed'])
-// ]
-// console.log(Client);
+class Сlient {
+    constructor(id, name, surname, email, phone, order) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+        this.phone = phone;
+        this.order = order;
+    }
+}
+
+let clients = [
+    new Client(2,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'cupboard', 'table']),
+    new Client(1,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'table']),
+    new Client(3,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['cupboard']),
+    new Client(5,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'bed', 'table']),
+    new Client(4,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'table']),
+    new Client(6,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'cupboard', 'table', 'bed']),
+    new Client(9,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'bed', 'table', 'curbstone']),
+    new Client(7,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair']),
+    new Client(8,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['chair', 'cupboard', 'table', 'bed', 'curbstone']),
+    new Client(10,'david', 'ivanovich', 'ivanovich@gmail.com', "+3805012312355", ['bed'])
+]
+console.log(clients);
 // - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)
-// let clientSort = Client.sort((a,b) => a.order.length-b.order.length);
-// console.log(clientSort);
+let clientSort = clients.sort((a,b) => a.order.length-b.order.length);
+console.log(clientSort);

@@ -6,21 +6,21 @@
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
 
-// function cars (model, manufacturer, year, maxSpeed, volume) {
+// function Cars (model, manufacturer, year, maxSpeed, volume) {
 //     this.model = model;
 //     this.manufacturer = manufacturer;
 //     this.year = year;
 //     this.maxSpeed = maxSpeed;
 //     this.volume = volume;
 //     this.drive = function () {
-//         console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`)
+//         console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`);
 //     };
 //     this.info = function () {
 //         for (const key in this) {
-//             if (typeof this[key] !== 'function') console.log(`${key} - ${this[key]}`)
+//             if (typeof this[key] !== 'function') console.log(`${key} - ${this[key]}`);
 //         }
 //
-//         // console.log(`модель - ${this.model}, виробник -  ${this.manufacturer}, рік випуску - ${this.year}, максимальна швидкість - ${this.maxSpeed}, об'єм двигуна -${this.volume}`)
+//         // console.log(`модель - ${this.model}, виробник -  ${this.manufacturer}, рік випуску - ${this.year}, максимальна швидкість - ${this.maxSpeed}, об'єм двигуна -${this.volume}`);
 //     };
 //     this.increaseMaxSpeed = function (newSpeed) {
 //         this.maxSpeed += newSpeed;
@@ -32,7 +32,7 @@
 //         this.driver = driver;
 //     };
 // }
-// let carN = new cars ('passat', 'VW', 2010, 160, 2.0, );
+// let carN = new Cars ('passat', 'VW', 2010, 160, 2.0, );
 // console.log(carN);
 // carN.drive();
 // carN.info();
@@ -58,21 +58,21 @@
         this.volume = volume;
     }
     drive () {
-        console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`)
+        console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`);
     };
     info () {
-        for (const info of this) {
-            console.log(`${info} - ${this[info]}`)
+        for (const key of this) {
+            console.log(`${key} - ${this[key]}`);
         }
     };
     increaseMaxSpeed (newSpeed) {
-        this.maxSpeed += newSpeed
+        this.maxSpeed += newSpeed;
     };
     changeYear (newValue) {
-        this.year = newValue
+        this.year = newValue;
     };
     addDriver (driver) {
-        this.driver = driver
+        this.driver = driver;
     };
 }
 let carD = new Car ('passat', 'VW', 2010, 160, 2.0, );

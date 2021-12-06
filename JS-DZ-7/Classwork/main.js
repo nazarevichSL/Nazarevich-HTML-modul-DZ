@@ -61,7 +61,7 @@
         console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`);
     };
     info () {
-        for (const key of this) {
+            for (const key in this) {
             console.log(`${key} - ${this[key]}`);
         }
     };

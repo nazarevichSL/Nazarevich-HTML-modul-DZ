@@ -1,5 +1,5 @@
-// - Напишіть код,  котрий :
-// -- отримує текст з параграфа з id "content"
+//  Напишіть код,  котрий :
+//  -- отримує текст з параграфа з id "content"
 // let conText = document.getElementById("content");
 // console.log(conText.innerText);
 

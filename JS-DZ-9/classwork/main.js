@@ -210,8 +210,7 @@ for (const course of coursesArray) {
         modulesElement.appendChild(module);
     }
     courseElement.appendChild(titleElement);
-    courseElement.appendChild(monthDurationElement);
-    courseElement.appendChild(hourDurationElement);
+    courseElement.append(durationDiv);
     courseElement.appendChild(modulesElement);
     document.body.appendChild(courseElement);
-}
+    }

@@ -116,18 +116,15 @@
     //    }
     // }
 
-    // или не работает!!!!!!!!!!!
+    // или
     document.getElementById('but1').onclick = function () {
         let age = document.getElementById('age').value;
-        if (!age) {
-            alert('Не ввели возраст');
-        } else if (+age < 18) {
+        if (+age < 18) {
             alert('Ваш возраст недостаточный');
         } else {
             alert('Приветствую на Нашем сайте');
         }
     }
-
 
     // - Создайте меню, которое раскрывается/сворачивается при клике
     // let menu = document.getElementsByClassName('menu')[0];
@@ -137,7 +134,6 @@
     //         child.classList.toggle('col')
     //     }
     // }
-
 
     // - Создать список комментариев , пример объекта коментария - {title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
     //     Вывести список комментариев в документ, каждый в своем блоке.

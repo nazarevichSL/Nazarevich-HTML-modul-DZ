@@ -8,30 +8,132 @@
     <title>DZ-10 classwork</title>
 </head>
 <body>
+<form name="for1">
+    <input type="text" name="x1">
+    <input type="text" name="x2">
+</form>
+<form name="for2">
+    <input type="text" name="x3">
+    <input type="text" name="x4">
+</form>
+ <button id="but">click</button>
+
+<hr>
+<form name="tabReactor">
+    <input type="number" name="r">
+    <input type="number" name="col">
+    <input type="text" name="content">
+    <button>click</button>
+</form>
+
+<hr>
+<input type="text" id="txt">
+<button id="but1">examination</button>
+
+<hr>
+<input type="text" id="sen">
+<button id="btn">word check</button>
+
 <script>
-    // - створити 2 форми  по 2 інпути в кожній. ствоирити кнопку при кліку на яку считується та виводиться на консоль інформація з цих 2х форм.
+    // - створити 2 форми  по 2 інпути в кожній. ствоирити кнопку при кліку на яку считується
+    // та виводиться на консоль інформація з цих 2х форм.
     //     Кнопка повинна лежати за межами форм (Щоб ьуникнути  перезавантаження сторінки)
     // Доступ до інпутів через Forms API. Отже дайте формі та інпутам всі необхідні атрибути.
-    //
+    // document.getElementById('but').onclick = function () {
+    //     let x1 = document.forms.for1.x1.value;
+    //     let x2 = document.forms.for1.x2.value;
+    //     let x3 = document.forms.for2.x3.value;
+    //     let x4 = document.forms.for2.x4.value;
+    //     console.log(x1,x2,x3,x4);
+    // }
     //
     // - Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
     //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
     // (Додатковачастина для завдання)
-    //
-    //
+    // коректно не работает!!!!!!!!!!!!
+    let form = document.forms['tabReactor'];
+    form.onsubmit = function (e) {
+        e.preventDefault();
+        let r = +form.r.value;
+        let col = +form.col.value;
+        let content = form.content.value;
+        console.log(r,col,content);
+
+        let table = document.createElement('table');
+
+        for (let i = 0; i < r; i++) {
+            let rd = document.createElement('rd')
+            for (let x = 0; x < col; x++) {
+                let ch = document.createElement('ch');
+                ch.innerText = content;
+                rd.appendChild(ch);
+            }
+            table.appendChild(rd);
+        }
+        document.body.appendChild(table);
+    }
+
     // - Сворити масив не цензцрних слів.
     //     Сворити інпут текстового типу.
     //     Якщо людина вводить слово і воно міститься в масиві не цензурних слів
     // кинути алерт з попередженням.
     //     Перевірку робити при натисканні на кнопку
-    //
-    //
-    // - Сворити масив не цензцрних слів.
-    //     Сворити інпут текстового типу.
-    //     Потрібно перевіряти чи не містить ціле речення в собі погані слова.
-    //     Кинути алерт з попередженням у випадку якщо містить.
-    //     Перевірку робити при натисканні на кнопку
+    // let scold = ['пиздун', 'распиздяй', 'долбоеб'];
+    // let but1 = document.getElementById('but1');
+    // but1.onclick = function () {
+    //     let wordScold = document.getElementById('txt').value;
+    //     for (const Scolds of scold) {
+    //         if (Scolds === wordScold) {
+    //             alert('нецензурная лексика');
+    //             txt.value = ' ';
+    //             return;
+    //             }
+    //         }
+    //        if (wordScold) {
+    //             alert('мата нет');
+    //             txt.value = ' ';
+    //     }
+    // }
 
+    // или
+    // let mates = ['пиздун', 'распиздяй', 'долбоеб'];
+    // let input = document.createElement("input");
+    // let  button = document.createElement('button');
+    // button.innerText = 'Проверка';
+    // document.body.append(input, button);
+    //
+    // button.addEventListener('click', function () {
+    //     let valueInput = input.value;
+    //
+    //     for (let  mat of mates) {
+    //         if (mat === valueInput) {
+    //             alert('МАТ!!!');
+    //             input.value = ' ';
+    //             return;
+    //         }
+    //     }
+    //     if (valueInput) {
+    //         alert("МАТОВ НЕТ!!!");
+    //         input.value = ' ';
+    //     }
+    // })
+
+
+    // - Сворити масив не цензцрних слів.
+    // Сворити інпут текстового типу.
+    // Потрібно перевіряти чи не містить ціле речення в собі погані слова.
+    // Кинути алерт з попередженням у випадку якщо містить.
+    // Перевірку робити при натисканні на кнопку
+    // let sentenceWord = ['пиздун', 'распиздяй', 'долбоеб'];
+    // let btn = document.getElementById('btn');
+    // btn.onclick = function () {
+    //     let sentence = document.getElementById('sen').value;
+    //     for (const sentences of sentenceWord) {
+    //         if (sentence.includes(sentences)) {
+    //             alert('есть мат');
+    //         }
+    //     }
+    // }
 </script>
 </body>
 </html>

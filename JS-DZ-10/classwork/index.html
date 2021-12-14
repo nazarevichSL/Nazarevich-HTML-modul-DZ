@@ -58,17 +58,15 @@
         let col = +form.col.value;
         let content = form.content.value;
         console.log(r,col,content);
-
         let table = document.createElement('table');
-
         for (let i = 0; i < r; i++) {
-            let rd = document.createElement('rd')
+            let tr = document.createElement('tr')
             for (let x = 0; x < col; x++) {
-                let ch = document.createElement('ch');
-                ch.innerText = content;
-                rd.appendChild(ch);
+                let td = document.createElement('td');
+                td.innerText = content;
+                tr.appendChild(td);
             }
-            table.appendChild(rd);
+            table.appendChild(tr);
         }
         document.body.appendChild(table);
     }
@@ -85,13 +83,13 @@
     //     for (const Scolds of scold) {
     //         if (Scolds === wordScold) {
     //             alert('нецензурная лексика');
-    //             txt.value = ' ';
+    //             txt.value = '';
     //             return;
     //             }
     //         }
     //        if (wordScold) {
     //             alert('мата нет');
-    //             txt.value = ' ';
+    //             txt.value = '';
     //     }
     // }
 

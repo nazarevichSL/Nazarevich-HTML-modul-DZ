@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DZ-11 homework</title>
+</head>
+<body>
+<form name="for1">
+    <input type="text" name="name">
+    <input type="number" name="age">
+    <button>click</button>
+</form>
+
+<hr>
+<input type="text" name="name">
+<input type="number" name="age">
+<button>click2</button>
+
+<hr>
+<form name="avtForm">
+    <label>Модель
+    <input type="text" name="model">
+    </label>
+    <label>Тип
+    <input type="text" name="type">
+    </label>
+    <label>Объем
+    <input type="number" name="volume">
+    </label>
+   <button>save</button>
+</form>
+
+<hr>
+<form name="avtoForm">
+    <label>Model:
+        <input type="text" name="model">
+    </label>
+    <label>Type:
+        <input type="text" name="type">
+    </label>
+    <label>Volume:
+        <input type="number" name="volume">
+    </label>
+    <button id="but1">SAVE</button>
+</form>
+<script>
+
+
+    // -створити форму з інпутами для name та age.
+    //     При відправці форми записати об'єкт в localstorage
+// let for1 = document.forms.for1;
+// for1.onsubmit = function (e) {
+//     e.preventDefault();
+//     let name = this.name.value;
+//     let age = this.age.value;
+//     console.log(name, age);
+//     localStorage.setItem('userData', JSON.stringify({name,age}))
+// }
+// или
+//     let inputs = document.getElementsByTagName('input');
+//     let name = inputs[0];
+//     let age = inputs[1];
+//     let but1 = document.getElementsByTagName('button')[0];
+//     but1.onclick = function () {
+//         let nameV = name.value;
+//         let ageV = age.value;
+//         localStorage.setItem('userData2', JSON.stringify({name: nameV, age: ageV}));
+//     }
+
+    // -створити форму з інпутами для model,type та volume автівки.
+    //     при відпарвці форми об'єкти зберігаються в масиві в локальному сховищі.
+    // let avtForm = document.forms.avtForm;
+    // avtForm.onsubmit = function (e) {
+    //     e.preventDefault();
+    //     let model = this.model.value;
+    //     let type = this.type.value;
+    //     let volume = this.volume.value;
+    //     let car = {model,type, volume};
+    //     let cars = JSON.parse(localStorage.getItem('cars'));
+    //     console.log(cars);
+    //     if (!cars) {
+    //         cars =[];
+    //         cars.push(car);
+    //     } else {
+    //         cars.push(car);
+    //     }
+    //     localStorage.setItem('cars', JSON.stringify(cars))
+    // }
+
+
+    // let avtForm = document.forms.avtForm;
+    // avtForm.onsubmit = function (e) {
+    //     e.preventDefault();
+    //     let model = this.model.value;
+    //     let type = this.type.value;
+    //     let volume = this.volume.value;
+    //     let car = {model, type, volume};
+    //     let cars = JSON.parse(localStorage.getItem('cars')) || [];
+    //     console.log(cars);
+    //     cars.push(car);
+    //     localStorage.setItem('cars', JSON.stringify(cars))
+    // }
+
+// или
+//     let model = document.forms.avtoForm.model;
+//     let type = document.forms.avtoForm.type;
+//     let volume = document.forms.avtoForm.volume;
+//     let but1 = document.getElementById('but1');
+//     let cars = "keyCar";
+//     let saveAuto = function (modelAvto, typeAvto, volumeAvto) {
+//         let newArr = JSON.parse(localStorage.getItem(cars)) || [];
+//         newArr.push({modelAvto, typeAvto, volumeAvto});
+//         localStorage.setItem(cars, JSON.stringify(newArr))
+//     }
+//     but1.onclick = () => {
+//         saveAuto (model.value, type.value, volume.value)
+//     }
+ </script>
+</body>
+</html>

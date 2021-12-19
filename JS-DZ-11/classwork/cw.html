@@ -7,13 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JS-11 classwork</title>
     <style>
-        user {
+        div {
             display: flex;
             margin: 20px;
-        }
-
+            color: #0837e8;
+            font-weight: 1000;
+                 }
         button {
             margin-left: 20px;
+            background: darkgrey;
+
         }
     </style>
 </head>
@@ -48,6 +51,7 @@
             let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
             favorites.push(user);
             localStorage.setItem('favorites', JSON.stringify(favorites));
+            but1.disabled= true;
         }
         userDiv.append(content, but1);
         document.body.appendChild(userDiv);

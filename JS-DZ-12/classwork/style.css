@@ -1,0 +1,35 @@
+.wrapPost {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.postDiv {
+    cursor: pointer;
+    border: 1px solid darkgrey;
+    flex-grow: 1;
+    border-radius: 15px;
+    background: #b6acac;
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+.postDiv h3 {
+    color: #005BB9;
+}
+button {
+    border-radius: 15px;
+    background: #b6e5db;
+    color: red;
+    width: 120px;
+    height: 60px;
+    font-size: large;
+    margin-bottom: 5px;
+}
+.comment {
+    margin: 5px;
+    border-radius: 15px;
+    background: #07fff7;
+    text-align: left;
+    padding: 5px;
+    font-size: x-large;
+
+}

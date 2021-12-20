@@ -24,6 +24,9 @@ button {
     font-size: large;
     margin-bottom: 5px;
 }
+
+.hidden { display  :  none;
+}
 .comment {
     margin: 5px;
     border-radius: 15px;

@@ -32,4 +32,4 @@
 // let colorText = document.getElementsByClassName('fc_rules');
 // for (const colorTextElement of colorText) {
 //     colorTextElement.style.color = 'red';
-}
+// }
